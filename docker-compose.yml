@@ -8,6 +8,6 @@ services:
       - 7999:7999
 
   jenkins:
-    image: jenkins/jenkins:2.150.3
+    image: jenkins/jenkins:2.164.2
     ports:
       - 8080:8080
